@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181616;
+  color: #fff;
+}
+.header {
+  color: #f5ebeb;
+  font-size: 200px;
+  font-family: Montserrat;
+  font-weight: 800;
+  word-wrap: break-word;
+  margin-left: 200px;
+  margin-top: 630px;
+}
+
+.back {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 340px; /* Atur posisi dari atas */
+  left: 200px; /* Atur posisi dari kiri */
+}
+
+/* konten contact me */
+.contact-left {
+  position: relative;
+  margin-left: 200px;
+  margin-top: 650px;
+}
+.contact-left p {
+  color: #f5ebeb;
+  font-size: 100px;
+  font-family: Montserrat;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin: 10px;
+  margin-top: 190px;
+}
+
+.contact-left p i {
+  color: #f5ebeb;
+  margin-right: 100px;
+}
+.sub-tittle {
+  color: #f5ebeb;
+  font-size: 200px;
+  font-family: Montserrat;
+  font-weight: 800;
+  margin-bottom: 70px;
+}
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  font-size: 160px;
+  letter-spacing: 50px;
+  text-decoration: none;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  margin-top: 290px;
+  transition: transform 0.5s;
+}
+.social-icons a:hover {
+  color: #2c67ff;
+  transform: translateY(-5px);
+}
+
+.contact-right {
+  /* posisi form */
+  position: relative;
+  margin-top: -1200px;
+  /* ukuran form */
+  width: 2000px; /* Sesuaikan dengan lebar yang diinginkan */
+  height: 700px;
+  margin-left: auto;
+  margin-right: 1200px;
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px o;
+  color: grey;
+  font-size: 85px;
+  border-radius: 35px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #2c67ff;
+  cursor: pointer;
+  font-size: 70px;
+  font-family: Montserrat;
+  font-weight: 800;
+  width: 650px;
+  height: 120px;
+  margin-top: 100px;
+  background-color: #2c67ff;
+}

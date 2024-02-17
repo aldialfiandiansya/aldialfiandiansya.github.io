@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181616;
+  color: #fff;
+  width: 1920px;
+  height: 1080px;
+}
+
+/* About */
+#about {
+  padding: 80px 0;
+  color: #f5ebeb;
+}
+#aldi2 {
+  width: 2100px; /* Lebar gambar */
+  height: 3000px; /* Tinggi gambar */
+  object-fit: cover; /* Menjaga proporsi gambar */
+  position: absolute;
+  top: -190px;
+  flex-shrink: 0;
+  left: 200px; /* Meletakkan gambar di bagian kanan */
+  margin: 10px; /* Menambahkan margin untuk memberi ruang */
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.about-col-1 {
+  flex-basis: 30%;
+}
+.about-col-2 {
+  flex-basis: 60%;
+  margin-left: 3000px;
+}
+
+.sub-tittle {
+  font-size: 80px;
+  font-weight: 600;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 370px;
+  margin-right: 200px;
+}
+
+.sub-tittle1 {
+  color: #adb6cf;
+  font-family: Montserrat;
+  font-size: 69px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 2.5;
+  letter-spacing: 8px;
+  text-align: justify; /* Menggeser teks ke kiri */
+  margin-top: 150px;
+  margin-right: 200px;
+}
+
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+  margin-top: 190px;
+}
+
+.tab-titles1 {
+  margin-right: 400px;
+  font-size: 80px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  color: #2c67ff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.tab-titles1::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #2c67ff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.tab-titles1:hover::after {
+  width: 100%;
+}
+
+.back {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 130px; /* Atur posisi dari atas */
+  left: 200px; /* Atur posisi dari kiri */
+}

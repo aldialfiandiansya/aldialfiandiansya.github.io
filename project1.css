@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181616;
+  color: #fff;
+}
+.header {
+  color: #f5ebeb;
+  font-size: 140px;
+  font-family: Montserrat;
+  font-weight: 800;
+  text-align: justify;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-right: 200px;
+  margin-top: 290px;
+}
+
+.back {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 340px; /* Atur posisi dari atas */
+  left: 200px; /* Atur posisi dari kiri */
+}
+
+/* konten */
+
+.konten {
+  color: #f5ebeb;
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-align: justify;
+  margin-left: 500px;
+  margin-right: 200px;
+  margin-top: 100px;
+  line-height: 100px;
+  letter-spacing: 10px;
+}
+/* Bukti Konten */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 400px;
+}
+
+.item {
+  text-align: center;
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 200px;
+  margin-left: 200px;
+}
+
+#kodesumber {
+  margin-left: 500px;
+  margin-top: -190px;
+  margin-bottom: 50px;
+}
+#rangkaian {
+  margin-left: 160px;
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+#hasil {
+  margin-left: 600px;
+  margin-top: -190px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 700px;
+  height: auto;
+  margin-top: 10px; /* Jarak antara teks dan gambar */
+}
+
+/* gambar kode sumber */
+.foto1 {
+  margin-right: 20px;
+}
+
+/* gambar hasil */
+.foto3 {
+  margin-right: 20px;
+}

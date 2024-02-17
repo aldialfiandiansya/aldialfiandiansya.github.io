@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181616;
+  color: #fff;
+}
+.header {
+  color: #2c67ff;
+  font-size: 200px;
+  font-family: Montserrat;
+  font-weight: 800;
+  word-wrap: break-word;
+  text-align: center; /* Center the text */
+  margin-top: 300px;
+}
+
+.back {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 340px; /* Atur posisi dari atas */
+  left: 200px; /* Atur posisi dari kiri */
+}
+/* list experience */
+
+/* list1 */
+.bullet-points {
+  list-style-type: disc; /* Jenis poin bulat */
+  /* list-style-type: square; /* Jenis poin persegi */
+  /* list-style-type: none; /* Tanpa poin */
+  /* list-style-type: circle; /* Jenis poin lingkaran */
+  margin-top: 300px;
+  margin-left: 670px;
+}
+
+/* Styling tambahan untuk teks */
+.bullet-points li {
+  font-size: 60px;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  width: 2000px;
+  word-wrap: break-word;
+  line-height: 100px;
+}
+
+.sub {
+  font-size: 60px;
+  font-family: Montserrat;
+  color: #adb6cf;
+}
+.date {
+  position: absolute;
+  right: 300px; /* Mengatur elemen date1 ke sisi kanan */
+}
+
+/* list2 */
+.bullet-points1 {
+  list-style-type: disc; /* Jenis poin bulat */
+  /* list-style-type: square; /* Jenis poin persegi */
+  /* list-style-type: none; /* Tanpa poin */
+  /* list-style-type: circle; /* Jenis poin lingkaran */
+  margin-top: 120px;
+  margin-left: 670px;
+}
+
+/* Styling tambahan untuk teks */
+.bullet-points1 li {
+  font-size: 60px;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  width: 2000px;
+  word-wrap: break-word;
+  line-height: 100px;
+}
+
+.sub1 {
+  font-size: 60px;
+  font-family: Montserrat;
+  color: #adb6cf;
+}
+.date1 {
+  position: absolute;
+  right: 300px; /* Mengatur elemen date1 ke sisi kanan */
+}
+
+/* list3 */
+.bullet-points2 {
+  list-style-type: disc; /* Jenis poin bulat */
+  /* list-style-type: square; /* Jenis poin persegi */
+  /* list-style-type: none; /* Tanpa poin */
+  /* list-style-type: circle; /* Jenis poin lingkaran */
+  margin-top: 120px;
+  margin-left: 670px;
+}
+
+/* Styling tambahan untuk teks */
+.bullet-points2 li {
+  font-size: 60px;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  width: 2000px;
+  word-wrap: break-word;
+  line-height: 100px;
+}
+
+.sub2 {
+  font-size: 60px;
+  font-family: Montserrat;
+  color: #adb6cf;
+}
+.date2 {
+  position: absolute;
+  right: 300px; /* Mengatur elemen date1 ke sisi kanan */
+}
+
+/* list4 */
+.bullet-points3 {
+  list-style-type: disc; /* Jenis poin bulat */
+  /* list-style-type: square; /* Jenis poin persegi */
+  /* list-style-type: none; /* Tanpa poin */
+  /* list-style-type: circle; /* Jenis poin lingkaran */
+  margin-top: 120px;
+  margin-left: 670px;
+}
+
+/* Styling tambahan untuk teks */
+.bullet-points3 li {
+  font-size: 60px;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  width: 2200px;
+  word-wrap: break-word;
+  line-height: 100px;
+}
+
+.sub3 {
+  font-size: 60px;
+  font-family: Montserrat;
+  color: #adb6cf;
+}
+.date3 {
+  position: absolute;
+  right: 300px; /* Mengatur elemen date1 ke sisi kanan */
+}
+/* list5 */
+.bullet-points4 {
+  list-style-type: disc; /* Jenis poin bulat */
+  /* list-style-type: square; /* Jenis poin persegi */
+  /* list-style-type: none; /* Tanpa poin */
+  /* list-style-type: circle; /* Jenis poin lingkaran */
+  margin-top: 120px;
+  margin-left: 670px;
+}
+
+/* Styling tambahan untuk teks */
+.bullet-points4 li {
+  font-size: 60px;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  width: 2200px;
+  word-wrap: break-word;
+  line-height: 100px;
+}
+
+.sub4 {
+  font-size: 60px;
+  font-family: Montserrat;
+  color: #adb6cf;
+}
+.date4 {
+  position: absolute;
+  right: 300px; /* Mengatur elemen date1 ke sisi kanan */
+}
+
+/* list6 */
+.bullet-points5 {
+  list-style-type: disc; /* Jenis poin bulat */
+  /* list-style-type: square; /* Jenis poin persegi */
+  /* list-style-type: none; /* Tanpa poin */
+  /* list-style-type: circle; /* Jenis poin lingkaran */
+  margin-top: 120px;
+  margin-left: 670px;
+}
+
+/* Styling tambahan untuk teks */
+.bullet-points5 li {
+  font-size: 60px;
+  color: #f5ebeb;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  width: 2200px;
+  word-wrap: break-word;
+  line-height: 100px;
+}
+
+.sub5 {
+  font-size: 60px;
+  font-family: Montserrat;
+  color: #adb6cf;
+}
+.date5 {
+  position: absolute;
+  right: 300px; /* Mengatur elemen date1 ke sisi kanan */
+}

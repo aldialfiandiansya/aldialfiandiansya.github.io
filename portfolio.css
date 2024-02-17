@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181616;
+  color: #fff;
+}
+.header {
+  color: #f5ebeb;
+  font-size: 200px;
+  font-family: Montserrat;
+  font-weight: 800;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-top: 290px;
+}
+
+.back {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 340px; /* Atur posisi dari atas */
+  left: 200px; /* Atur posisi dari kiri */
+}
+
+/* cover project */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.box {
+  position: relative;
+  width: 1500px; /* atau 1200px sesuai kebutuhan */
+  height: 1500px; /* atau 1200px sesuai kebutuhan */
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 120px; /* Hanya digunakan pada versi pertama */
+}
+
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: rectangular(20% at center);
+  opacity: 0.4;
+  background-color: dimgrey;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f5ebeb;
+  font-size: 150px;
+  font-family: Montserrat;
+  font-weight: 800;
+}
