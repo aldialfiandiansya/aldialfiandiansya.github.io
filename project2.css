@@ -8,39 +8,42 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 .header {
+  font-weight: 600;
   color: #f5ebeb;
-  font-size: 140px;
   font-family: Montserrat;
+  font-size: 33px;
+  font-style: normal;
   font-weight: 800;
-  text-align: justify;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-top: 290px;
+  line-height: normal;
+  margin-top: 110px;
+  margin-left: 230px;
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 340px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }
 /* konten */
 
 .konten {
   color: #f5ebeb;
-  font-size: 50px;
+  font-size: 20px;
   font-family: Montserrat;
-  font-weight: 500;
+  font-weight: 300;
   text-align: justify;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-top: 100px;
-  line-height: 100px;
-  letter-spacing: 10px;
+  margin-left: 230px;
+  margin-right: 100px;
+  margin-top: 40px;
+  line-height: 39px;
+  letter-spacing: 1px;
 }
 
 /* Bukti Konten */
@@ -49,12 +52,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 .item {
   text-align: center;
-  font-size: 50px;
+  font-size: 15px;
   font-family: Montserrat;
   font-weight: 500;
   text-align: justify;
@@ -63,24 +66,23 @@ body {
 }
 
 #kodesumber {
-  margin-left: 500px;
-  margin-top: -950px;
-  margin-bottom: 50px;
+  margin-left: 250px;
+  margin-top: -550px;
 }
 #poster {
-  margin-left: 400px;
-  margin-top: -190px;
+  margin-left: 100px;
+  margin-top: -550px;
   margin-bottom: 50px;
 }
 
 #hasil {
-  margin-left: 780px;
-  margin-top: -620px;
+  margin-left: 120px;
+  margin-top: -450px;
   margin-bottom: 50px;
 }
 
 img {
-  width: 1100px;
+  width: 300px;
   height: auto;
   margin-top: 10px; /* Jarak antara teks dan gambar */
 }
@@ -88,15 +90,16 @@ img {
 /* gambar kode sumber */
 .foto1 {
   margin-left: 200px;
+  margin-top: 60px;
 }
 /* gambar hasil */
 .foto2 {
   margin-top: 10px;
+  margin-left: -13px;
 }
 /* gambar hasil */
 .foto22 {
-  margin-bottom: 250px;
-  margin-left: -210px;
+  margin-top: 10px;
 }
 
 /* gambar poster */

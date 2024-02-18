@@ -8,8 +8,9 @@
 body {
   background: #181616;
   color: #fff;
-  width: 1920px;
-  height: 1080px;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 
 /* About */
@@ -18,14 +19,13 @@ body {
   color: #f5ebeb;
 }
 #aldi2 {
-  width: 2100px; /* Lebar gambar */
-  height: 3000px; /* Tinggi gambar */
+  width: 660px; /* Lebar gambar */
+  height: auto; /* Tinggi gambar */
   object-fit: cover; /* Menjaga proporsi gambar */
   position: absolute;
-  top: -190px;
+  top: 25px;
   flex-shrink: 0;
-  left: 200px; /* Meletakkan gambar di bagian kanan */
-  margin: 10px; /* Menambahkan margin untuk memberi ruang */
+  left: 80px; /* Meletakkan gambar di bagian kanan */
 }
 .row {
   display: flex;
@@ -43,44 +43,43 @@ body {
 }
 .about-col-2 {
   flex-basis: 60%;
-  margin-left: 3000px;
+  margin-left: 900px;
 }
 
 .sub-tittle {
-  font-size: 80px;
   font-weight: 600;
   color: #f5ebeb;
   font-family: Montserrat;
-  font-size: 200px;
+  font-size: 90px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-top: 370px;
+  margin-top: 110px;
   margin-right: 200px;
 }
 
 .sub-tittle1 {
   color: #adb6cf;
   font-family: Montserrat;
-  font-size: 69px;
+  font-size: 20px;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 2.5;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   text-align: justify; /* Menggeser teks ke kiri */
-  margin-top: 150px;
-  margin-right: 200px;
+  margin-top: 50px;
+  margin-right: 150px;
 }
 
 .tab-titles {
   display: flex;
-  margin: 20px 0 40px;
-  margin-top: 190px;
+  margin: 10px 0 40px;
+  margin-top: 100px;
 }
 
 .tab-titles1 {
-  margin-right: 400px;
-  font-size: 80px;
+  margin-right: 90px;
+  font-size: 30px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
@@ -108,9 +107,9 @@ body {
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 130px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }

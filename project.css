@@ -8,23 +8,28 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 .header {
+  font-weight: 600;
   color: #f5ebeb;
-  font-size: 200px;
   font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
   font-weight: 800;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-top: 290px;
+  line-height: normal;
+  margin-top: 100px;
+  margin-left: 230px;
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 340px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }
 
 /* konten project */
@@ -33,16 +38,16 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 35vh;
 }
 
 /* Kontainer 1 dan 2 di dalam .container12 */
 .container12 .box:nth-child(1) {
-  margin-right: 90px; /* Atur margin kanan antara kontainer 1 dan 2 */
+  margin-right: 140px; /* Atur margin kanan antara kontainer 1 dan 2 */
 }
 
 .container12 .box:nth-child(2) {
-  margin-left: 90px; /* Atur margin kiri antara kontainer 1 dan 2 */
+  margin-left: 140px; /* Atur margin kiri antara kontainer 1 dan 2 */
 }
 
 .container345 {
@@ -50,25 +55,25 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  margin-top: -600px;
+  height: 90vh;
+  margin-top: -200px;
 }
 /* Kontainer 3, 4, dan 5 di dalam .container345 */
 .container345 .box {
-  margin: 0 130px; /* Atur margin kanan dan kiri antara kontainer 3, 4, dan 5 */
+  margin: 0 100px; /* Atur margin kanan dan kiri antara kontainer 3, 4, dan 5 */
 }
 
 /* Kontainer 1 dan 2 di atas */
 .box:nth-child(1),
 .box:nth-child(2) {
-  margin-top: 50px; /* Atur margin antar kontainer */
+  margin-top: 15px; /* Atur margin antar kontainer */
 }
 
 .box {
   position: relative;
-  width: 1700px; /* atau 1200px sesuai kebutuhan */
-  height: 1300px; /* atau 1200px sesuai kebutuhan */
-  border-radius: 250px;
+  width: 300px; /* atau 1200px sesuai kebutuhan */
+  height: 300px; /* atau 1200px sesuai kebutuhan */
+  border-radius: 25px;
   overflow: hidden;
 }
 
@@ -76,7 +81,7 @@ body {
 .box:nth-child(3),
 .box:nth-child(4),
 .box:nth-child(5) {
-  margin-left: 20px; /* Atur margin antar kontainer */
+  margin-left: 200px; /* Atur margin antar kontainer */
 }
 
 .mask {
@@ -100,8 +105,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f5ebeb;
-  font-size: 80px;
+  font-size: 15px;
   font-family: Montserrat;
   font-weight: 700;
-  line-height: 110px;
+  line-height: 25px;
 }

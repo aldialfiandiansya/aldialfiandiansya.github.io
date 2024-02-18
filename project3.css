@@ -8,40 +8,43 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 .header {
+  font-weight: 600;
   color: #f5ebeb;
-  font-size: 140px;
   font-family: Montserrat;
+  font-size: 33px;
+  font-style: normal;
   font-weight: 800;
-  text-align: justify;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-top: 290px;
+  line-height: normal;
+  margin-top: 120px;
+  margin-left: 230px;
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 340px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }
 
 /* konten */
 
 .konten {
   color: #f5ebeb;
-  font-size: 50px;
+  font-size: 20px;
   font-family: Montserrat;
-  font-weight: 500;
+  font-weight: 300;
   text-align: justify;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-top: 100px;
-  line-height: 100px;
-  letter-spacing: 10px;
+  margin-left: 230px;
+  margin-right: 100px;
+  margin-top: 40px;
+  line-height: 39px;
+  letter-spacing: 1px;
 }
 
 /* Bukti Konten */
@@ -55,33 +58,30 @@ body {
 
 .item {
   text-align: center;
-  font-size: 50px;
+  font-size: 15px;
   font-family: Montserrat;
   font-weight: 500;
   text-align: justify;
   margin-bottom: 200px;
-  margin-left: 200px;
+  margin-left: 20px;
 }
 
 #kodesumber {
-  margin-left: 300px;
-  margin-top: -700px;
-  margin-bottom: 200px;
+  margin-left: 200px;
+  margin-top: -360px;
 }
 #hasil {
-  margin-left: 900px;
-  margin-top: -170px;
-  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-top: -310px;
 }
 
 #rangkaian {
-  margin-left: 250px;
-  margin-top: -190px;
-  margin-bottom: 50px;
+  margin-left: 120px;
+  margin-top: -320px;
 }
 
 img {
-  width: 700px;
+  width: 200px;
   height: auto;
   margin-top: 20px; /* Jarak antara teks dan gambar */
 }
@@ -94,16 +94,16 @@ img {
 
 /* gambar rangkaian */
 .foto22 {
-  margin-bottom: 40px;
-  margin-left: 120px;
+  margin-left: 90px;
+  margin-top: 10px;
 }
 
 /* gambar hasil */
 .foto3 {
-  margin-left: 370px;
+  margin-left: 120px;
   margin-top: 20px;
 }
 .foto33 {
-  margin-right: 300px;
-  margin-top: 20px;
+  right: 900px;
+  margin-top: -500px;
 }

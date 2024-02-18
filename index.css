@@ -8,6 +8,9 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 
 /* Home */
@@ -15,21 +18,20 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  position: relative;
+  position: absolute;
 }
 
 #header-image {
-  width: 3000px; /* Lebar gambar */
-  height: 3000px; /* Tinggi gambar */
-  object-fit: cover; /* Menjaga proporsi gambar */
+  width: 1000px; /* Lebar gambar */
+  height: 1000px; /* Tinggi gambar */
   position: absolute;
-  top: 150px;
-  right: 400px; /* Meletakkan gambar di bagian kanan */
-  margin: 10px; /* Menambahkan margin untuk memberi ruang */
+  top: 10px;
+  left: 1050px; /* Meletakkan gambar di bagian kanan */
 }
 
 #logo {
-  width: 300px; /* Lebar gambar */
+  width: 100px; /* Lebar gambar */
+  margin-top: 0px;
 }
 .container {
   padding: 5px 2%;
@@ -37,25 +39,23 @@ body {
 
 nav {
   display: flex;
-  align-items: right;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 nav ul li {
   display: inline-block;
   list-style: none;
-  width: 657px;
-  height: 37px;
-  flex-shrink: 0;
 }
 
 nav ul li a {
   color: #adb6cf;
   text-decoration: none;
-  font-size: 110px;
+  font-size: 30px;
   position: relative;
+  margin: 20px;
 }
 
 nav ul li a::after {
@@ -74,29 +74,29 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 20%;
-  margin-left: 300px;
+  margin-top: 15%;
+  margin-left: 8px;
   color: #adb6cf;
   font-family: Montserrat;
-  font-size: 90px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 800;
   line-height: normal;
 }
 .header-text h1 {
-  font-size: 190px;
-  margin-top: 20px;
+  font-size: 70px;
+  margin-top: 50px;
   color: #f5ebeb;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: normal;
 }
 
 .aldi {
   color: #2c67ff;
   font-family: Montserrat;
-  font-size: 190px;
+  font-size: 90px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -105,41 +105,95 @@ nav ul li a:hover::after {
   color: #f5ebeb;
 }
 
+nav .fas {
+  display: none;
+}
+
 /* CSS for small screens */
-/* Tambahkan media query untuk iPhone XR dengan lebar layar 414px */
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+
+@media screen and (max-width: 600px) {
+  body {
+    background: #181616;
+    color: #fff;
+    width: 1080px;
+    height: auto;
+  }
+
   #header {
-    height: auto; /* Atur tinggi header sesuai kontennya */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
   }
-
   #header-image {
-    width: 100%; /* Gambar mengisi lebar kontainer */
-    height: auto; /* Sesuaikan tinggi sesuai proporsi asli */
-    position: static; /* Hapus posisi absolut */
-    margin: 10px 0; /* Sesuaikan margin */
+    width: 800px; /* Lebar gambar */
+    height: 800px; /* Tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    position: absolute;
+    top: 40px;
+    left: 90px; /* Meletakkan gambar di bagian kanan */
+    margin: 10px; /* Menambahkan margin untuk memberi ruang */
   }
-
+  #logo {
+    width: 80px; /* Lebar gambar */
+    margin-top: -120px;
+    margin-left: 20px;
+  }
+  .container {
+    padding: 1px 1%;
+  }
   .header-text {
-    margin-top: 10%; /* Sesuaikan margin */
-    margin-left: 0; /* Reset margin kiri */
+    margin-top: 200px;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .header-text h1 {
+    font-size: 30px;
   }
 
-  nav {
-    margin-top: 20px; /* Sesuaikan margin atas */
+  .aldi {
+    color: #2c67ff;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
-
-  nav ul li {
-    width: 100%; /* Menyusun menu penuh lebar */
-    text-align: center; /* Pusatkan teks */
-    margin-bottom: 10px; /* Tambahkan ruang antar menu */
-  }
-
-  nav ul li a {
-    font-size: 20px; /* Sesuaikan ukuran font */
-  }
-
-  .aldi,
   .alfiandiansyah {
-    font-size: 24px; /* Sesuaikan ukuran font */
+    color: #f5ebeb;
+    font-size: 35px;
+  }
+  nav .fas {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background: #181616;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 70px;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin: 9px;
+  }
+  nav ul li a {
+    color: #adb6cf;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+  }
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    cursor: pointer;
+  }
+  .fa-bars {
+    margin-top: -75px;
+    margin-right: 50px;
   }
 }

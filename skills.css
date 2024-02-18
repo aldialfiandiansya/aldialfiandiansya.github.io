@@ -8,23 +8,28 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 .header {
-  color: #2c67ff;
-  font-size: 200px;
+  font-weight: 600;
+  color: #f5ebeb;
   font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
   font-weight: 800;
-  word-wrap: break-word;
-  text-align: center; /* Center the text */
-  margin-top: 300px;
+  line-height: normal;
+  margin-top: 100px;
+  margin-left: 230px;
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 340px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }
 
 .container {
@@ -32,21 +37,21 @@ body {
 }
 
 .persegi {
-  width: 700px; /* Sesuaikan lebar persegi */
-  height: 100px; /* Sesuaikan tinggi persegi */
+  width: 190px; /* Sesuaikan lebar persegi */
+  height: 40px; /* Sesuaikan tinggi persegi */
   background-color: #2c67ff;
-  margin-right: 80px; /* Sesuaikan jarak antar persegi */
+  margin-right: 190px; /* Sesuaikan jarak antar persegi */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  margin-left: 600px;
-  margin-top: 550px;
+  margin-left: 150px;
+  margin-top: 130px;
 }
 
 .teks-di-dalam {
   color: white;
-  font-size: 70px; /* Sesuaikan ukuran font */
+  font-size: 18px; /* Sesuaikan ukuran font */
   font-family: Montserrat;
   font-weight: 800;
   word-wrap: break-word;
@@ -59,20 +64,21 @@ body {
   /* list-style-type: square; /* Jenis poin persegi */
   /* list-style-type: none; /* Tanpa poin */
   /* list-style-type: circle; /* Jenis poin lingkaran */
-  margin-top: 200px;
-  margin-left: 670px;
+  margin-top: 60px;
+  margin-left: 180px;
 }
 
 /* Styling tambahan untuk teks */
 .bullet-points li {
-  font-size: 60px;
+  font-size: 18px;
+  letter-spacing: 1px;
   color: #f5ebeb;
   font-family: Montserrat;
   font-style: italic;
   font-weight: 800;
-  width: 1200px;
+  width: 400px;
   word-wrap: break-word;
-  line-height: 100px;
+  line-height: 60px;
 }
 
 /* list software */
@@ -81,20 +87,21 @@ body {
   /* list-style-type: square; /* Jenis poin persegi */
   /* list-style-type: none; /* Tanpa poin */
   /* list-style-type: circle; /* Jenis poin lingkaran */
-  margin-top: -320px;
-  margin-left: 2060px;
+  margin-top: -180px;
+  margin-left: 650px;
 }
 
 /* Styling tambahan untuk teks */
 .bullet-points2 li {
-  font-size: 60px;
+  font-size: 18px;
+  letter-spacing: 1px;
   color: #f5ebeb;
   font-family: Montserrat;
   font-style: italic;
   font-weight: 800;
-  width: 1000px;
+  width: 500px;
   word-wrap: break-word;
-  line-height: 100px;
+  line-height: 60px;
 }
 
 /* list engineering */
@@ -103,20 +110,20 @@ body {
   /* list-style-type: square; /* Jenis poin persegi */
   /* list-style-type: none; /* Tanpa poin */
   /* list-style-type: circle; /* Jenis poin lingkaran */
-  margin-top: -620px;
-  margin-left: 3450px;
+  margin-top: -365px;
+  margin-left: 1130px;
 }
 
 /* Styling tambahan untuk teks */
 .bullet-points3 li {
-  font-size: 60px;
+  font-size: 18px;
   color: #f5ebeb;
   font-family: Montserrat;
   font-style: italic;
   font-weight: 800;
-  width: 1000px;
+  width: 500px;
   word-wrap: break-word;
-  line-height: 100px;
+  line-height: 60px;
 }
 
 /* list other */
@@ -125,18 +132,19 @@ body {
   /* list-style-type: square; /* Jenis poin persegi */
   /* list-style-type: none; /* Tanpa poin */
   /* list-style-type: circle; /* Jenis poin lingkaran */
-  margin-top: -510px;
-  margin-left: 4820px;
+  margin-top: -240px;
+  margin-left: 1610px;
 }
 
 /* Styling tambahan untuk teks */
 .bullet-points4 li {
-  font-size: 60px;
+  font-size: 18px;
+  letter-spacing: 1px;
   color: #f5ebeb;
   font-family: Montserrat;
   font-style: italic;
   font-weight: 800;
-  width: 1000px;
+  width: 400px;
   word-wrap: break-word;
-  line-height: 100px;
+  line-height: 60px;
 }

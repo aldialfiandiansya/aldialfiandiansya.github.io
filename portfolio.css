@@ -8,23 +8,28 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 .header {
+  font-weight: 600;
   color: #f5ebeb;
-  font-size: 200px;
   font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
   font-weight: 800;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-top: 290px;
+  line-height: normal;
+  margin-top: 100px;
+  margin-left: 230px;
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 340px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }
 
 /* cover project */
@@ -37,8 +42,8 @@ body {
 
 .box {
   position: relative;
-  width: 1500px; /* atau 1200px sesuai kebutuhan */
-  height: 1500px; /* atau 1200px sesuai kebutuhan */
+  width: 450px; /* atau 1200px sesuai kebutuhan */
+  height: 450px; /* atau 1200px sesuai kebutuhan */
   border-radius: 20px;
   overflow: hidden;
   margin: 120px; /* Hanya digunakan pada versi pertama */
@@ -65,7 +70,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f5ebeb;
-  font-size: 150px;
+  font-size: 60px;
   font-family: Montserrat;
   font-weight: 800;
 }

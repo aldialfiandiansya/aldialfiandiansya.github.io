@@ -8,39 +8,42 @@
 body {
   background: #181616;
   color: #fff;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
 }
 .header {
+  font-weight: 600;
   color: #f5ebeb;
-  font-size: 140px;
   font-family: Montserrat;
+  font-size: 33px;
+  font-style: normal;
   font-weight: 800;
-  text-align: justify;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-top: 290px;
+  line-height: normal;
+  margin-top: 120px;
+  margin-left: 230px;
 }
 
 .back {
-  width: 150px;
+  width: 65px;
   height: auto;
   position: absolute;
-  top: 340px; /* Atur posisi dari atas */
-  left: 200px; /* Atur posisi dari kiri */
+  top: 90px; /* Atur posisi dari atas */
+  left: 100px; /* Atur posisi dari kiri */
 }
 /* konten */
 
 .konten {
   color: #f5ebeb;
-  font-size: 50px;
+  font-size: 20px;
   font-family: Montserrat;
-  font-weight: 500;
+  font-weight: 300;
   text-align: justify;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-top: 100px;
-  line-height: 100px;
-  letter-spacing: 2px;
+  margin-left: 230px;
+  margin-right: 90px;
+  margin-top: 40px;
+  line-height: 39px;
+  letter-spacing: 1px;
 }
 
 /* Bukti Konten */
@@ -54,7 +57,7 @@ body {
 
 .item {
   text-align: center;
-  font-size: 50px;
+  font-size: 15px;
   font-family: Montserrat;
   font-weight: 500;
   text-align: justify;
@@ -63,43 +66,39 @@ body {
 }
 
 #kodesumber {
-  margin-left: 500px;
-  margin-top: -950px;
-  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-top: -400px;
 }
 #hasil {
-  margin-left: 1100px;
-  margin-top: -990px;
-  margin-bottom: 50px;
+  margin-left: 160px;
+  margin-top: -320px;
 }
 
 #rangkaian {
-  margin-left: 320px;
-  margin-top: -220px;
-  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-top: -330px;
 }
 
 img {
-  width: 1100px;
+  width: 360px;
   height: auto;
   margin-top: 10px; /* Jarak antara teks dan gambar */
 }
 
 /* gambar kode sumber */
 .foto1 {
-  margin-left: 200px;
+  margin-left: 300px;
 }
 /* gambar hasil */
 .foto22 {
-  margin-bottom: 250px;
-  margin-left: -50px;
+  margin-left: -10px;
 }
 
 /* gambar poster */
 .foto3 {
-  margin-right: 20px;
+  margin-right: 70px;
   margin-top: 10px;
 }
 .foto33 {
-  margin-right: 300px;
+  margin-right: 490px;
 }
